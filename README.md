@@ -1,4 +1,5 @@
 # webpack-template
+
 A template for my preferred webpack set up. New projects can start here
 
 Need to install node_modules in your new project. Run the following codes in your terminal:
@@ -6,7 +7,6 @@ Need to install node_modules in your new project. Run the following codes in you
 npm init -y
 
 npm install webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin
-
 
 To deploy to gh-pages, run:
 
