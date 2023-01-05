@@ -1,8 +1,8 @@
 # webpack-template
 
-A template for my preferred webpack set up. New projects can start here
+A template for my preferred webpack/ESLint/Prettier set up. New projects can clone this repo with some minor adjustments.
 
-Need to install node_modules in your new project. Run the following codes in your terminal:
+Need to install node_modules in your new project after cloning the repo. Run the following codes in your terminal:
 
 npm init -y
 
