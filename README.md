@@ -4,9 +4,25 @@ A template for my preferred webpack/ESLint/Prettier set up. New projects can clo
 
 Need to install node_modules in your new project after cloning the repo. Run the following codes in your terminal:
 
-npm init -y
+1. npm init -y
 
-npm install webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader
+2. npm install webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader
+
+You will also need to do some minor editing to the following in the package.json file:
+
+1.  "name": "webpack-demo", //Change to your preferred name
+
+2.  "description": "A template for my preferred webpack set up. New projects can start here", //Change to your preferred description
+
+3.  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stalloyde/webpack-template.git" //Change to your project's repo url
+    },
+4.  "bugs": {
+    "url": "https://github.com/Stalloyde/webpack-template/issues" //Change to your project's repo url
+    },
+
+5.  "homepage": "https://github.com/Stalloyde/webpack-template#readme" //Change to your project's repo url
 
 To deploy to gh-pages, run:
 
