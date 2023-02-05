@@ -6,7 +6,9 @@ Need to install node_modules in your new project after cloning the repo. Run the
 
 1. npm init -y
 
-2. npm install webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader --save-dev @babel/core @babel/cli
+2. npm install webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader
+
+3. npm install -D babel-loader @babel/core @babel/preset-env webpack
 
 You will also need to do some minor editing to the following in the package.json file:
 
