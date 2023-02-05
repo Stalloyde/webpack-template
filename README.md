@@ -4,11 +4,9 @@ A template for my preferred webpack/ESLint/Prettier set up. New projects can clo
 
 Need to install node_modules in your new project after cloning the repo. Run the following codes in your terminal:
 
-1. npm init -y
+1. npm init
 
-2. npm install webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader
-
-3. npm install -D babel-loader @babel/core @babel/preset-env webpack
+2. npm install -D babel-loader @babel/core @babel/preset-env webpack webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader
 
 You will also need to do some minor editing to the following in the package.json file:
 
@@ -28,8 +26,9 @@ You will also need to do some minor editing to the following in the package.json
 
 To deploy to gh-pages, run:
 
-git add dist && git commit -m "Initial dist subtree commit" //feel free to edit commit message
-
-git subtree push --prefix dist origin gh-pages
+1. npm run build
+2. commit and push to main branch
+3. git add dist && git commit -m "Initial dist subtree commit" //feel free to edit commit message
+4. git subtree push --prefix dist origin gh-pages
 
 then, make sure gh-pages setting uses gh-pages as its source.
