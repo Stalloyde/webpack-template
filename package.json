@@ -1,10 +1,10 @@
 {
-  "name": "webpack-demo",
+  "name": "weather-application",
   "version": "1.0.0",
-  "description": "A template for my preferred webpack set up. New projects can start here",
+  "description": "Search city and display its current weather",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack",
