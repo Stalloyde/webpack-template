@@ -28,7 +28,9 @@ To use Jest:
 
 - create 'name'.test.js file
 - Write unit tests in 'name'.test.js file. Jest has been configured to work with ES6 import/export
-- run npm test
+- Two options to run test:
+  1. Run npm test
+  2. Run npm run watch (Dev watch mode has been configured to watch for Jest)
 
 To deploy to gh-pages, run:
 
