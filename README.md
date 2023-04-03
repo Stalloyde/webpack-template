@@ -6,7 +6,7 @@ Need to install node_modules in your new project after cloning the repo. Run the
 
 1. npm init
 
-2. npm install -D babel-loader @babel/core @babel/preset-env webpack webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader
+2. npm install -D babel-loader @babel/core @babel/preset-env webpack webpack webpack-cli --save-dev --save lodash --save-dev style-loader css-loader --save-dev csv-loader xml-loader toml yamljs json5 --save-dev --save-dev html-webpack-plugin --save-dev html-loader --save-dev jest
 
 You will also need to do some minor editing to the following in the package.json file:
 
@@ -23,6 +23,12 @@ You will also need to do some minor editing to the following in the package.json
     },
 
 5.  "homepage": "https://github.com/Stalloyde/webpack-template#readme" //Change 'webpack-template' to your project's repo url
+
+To use Jest:
+
+- create 'name'.test.js file
+- Write unit tests in 'name'.test.js file. Jest has been configured to work with ES6 import/export
+- run npm test
 
 To deploy to gh-pages, run:
 
